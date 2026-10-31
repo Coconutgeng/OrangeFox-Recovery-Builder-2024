@@ -116,4 +116,4 @@ jobs:
         if_false: lunch omni_${{ github.event.inputs.DEVICE_NAME }}-eng && make clean && mka ${{ github.event.inputs.BUILD_TARGET }}image
       
     - name: Setup upterm session
-  uses: owenthereal/action-upterm@v1
+      uses: owenthereal/action-upterm@v1
